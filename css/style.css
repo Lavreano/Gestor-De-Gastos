@@ -27,6 +27,11 @@ header h1 {
     align-items: center;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .background-gradiente{
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     font-family: 'Nunito', sans-serif;
@@ -110,5 +115,102 @@ footer h2 {
 
 .error {
     color: #ac0000;
+}
+
+/* Media Query para Tablet y Móvil */
+@media screen and (max-width: 768px) {
+
+    body { overflow-x: hidden;}
+
+    header {
+        height: 60px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .body-container {
+        margin: 1em;
+        padding: 5px;
+    }
+
+    .body-container h2 {
+        font-size: 20px;
+    }
+
+    .form-container {
+        padding: 0 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    select {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    button {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    .icono-search {
+        font-size: 14px;
+    }
+
+    i {
+        font-size: 16px;
+    }
+
+    .container-total {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 2em;
+    }
+
+    footer h2 {
+        font-size: 16px;
+    }
+
+    .card-body {
+        padding: 1em;
+    }
+
+    table {
+        overflow-x: auto;
+    }
+
+    .container-total {
+        text-align: center;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+    }
+
+    /* Ajustes específicos para cada columna si es necesario */
+    th:nth-child(1), td:nth-child(1) {
+        text-align: left; /* Ajusta según sea necesario */
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+        text-align: left; /* Ajusta según sea necesario */
+    }
+
+    th:nth-child(3), td:nth-child(3) {
+        text-align: left; /* Ajusta según sea necesario */
+    }
+
+    th:nth-child(4), td:nth-child(4) {
+        text-align: left; /* Ajusta según sea necesario */
+    }
 }
 
